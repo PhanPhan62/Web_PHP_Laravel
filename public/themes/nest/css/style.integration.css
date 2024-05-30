@@ -1,0 +1,90 @@
+.banner-img .banner-text h4 {
+  border-radius: 10px;
+  font-weight: 700;
+  min-height: 0;
+  background: rgb(228, 228, 228, 0.4);
+  margin-bottom: 110px;
+  color: #253d4e;
+  font-size: 21px;
+}
+.logo.logo-width-1 a img {
+    min-width: 10px;
+    width: auto;
+}
+.banner-text h4, .banner-text a {
+  margin: 10px 0;
+  text-transform: capitalize;
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Optional: ensures text within elements is also centered */
+  height: 100%; /* Optional: ensure the banner-text takes full height of the parent */
+}
+
+.banner-text h4, .banner-text a {
+  margin: 10px 0; /* Optional: adjust spacing between elements */
+}
+
+.img-grey-hover {
+  max-width: 230px;
+  max-height: 230px;
+  filter: none;
+  opacity: 1;
+  transition: transform 0.3s ease;
+}
+
+.img-grey-hover:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.img-flash-sale{
+  height: 315px;
+}
+
+.img-logo-header{
+  max-height: 110px
+}
+.img-logo-footer{
+  width: 110px;
+  max-width: 110px;
+}
+
+.logo.logo-width-1 a img {
+  min-width: 10px;
+  width:auto;
+  max-height: 135px;
+}
+.product-card-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  flex-direction: column;
+}
+.add-cart  {
+    display: block;
+    align-items: center;
+}
+
+.product-cart-wrap .product-card-bottom .add-cart .add {
+  text-align: center;
+  padding: 10px
+}
+
+@media only screen and (max-width: 992px){
+  .logo.logo-width-1 a img {
+      min-width: 10px;
+      width: auto;
+      max-height: 50px;
+  }
+  .detail-info .product-price {
+    align-items: center;
+    display: flex;
+    margin: 15px 0 30px;
+    flex-direction: column;
+  }
+}
